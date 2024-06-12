@@ -7,8 +7,9 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Ingredient {
+public class IngredientMenu {
     private int id;
-    private String name;
-    private double unitPrice;
+    private double quantity;
+    private int idMEnu;
+    private int idIngredient;
 }

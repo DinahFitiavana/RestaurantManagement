@@ -11,5 +11,6 @@ import lombok.*;
 public class Menu {
     private int id;
     private String name;
-    private double unitPrice;
+    private int idPrice;
+    private int idRestaurant;
 }
